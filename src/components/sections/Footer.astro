@@ -3,23 +3,23 @@ import FooterForm from "@ui/forms/FooterForm.astro";
 import ContactInfo from "@common/ContactInfo.astro";
 
 // Props for customization
-const companyName = "DataNova Analytics Inc.";
+const companyName = "Vitally";
 const companyDescription =
-  "DataNova Analytics Inc. is a leading business intelligence and analytics software company founded in 2018, with offices in Boston and Seattle.";
+  "Vitally helps you digitize, organize, and share your medical files—quickly and securely. Stay in control of your health records, wherever you go.";
 
 // Contact information for the company
 const contactDetails = {
-  address: "Seattle, WA, 98104",
-  phone: "1 (833) 328-2669",
-  email: "info@datanova.com",
-  website: "www.datanova.com",
+  address: "Surat, India",
+  phone: "91 98245 82495",
+  email: "info@vitally.app",
+  website: "www.vitally.app",
 };
 
 // Dynamic date for copyright display
 const copyrightYear = new Date().getFullYear();
 
 // Developer or team behind the website
-const craftedBy = { name: "gulamoff", url: "https://www.gulamoff.dev/" };
+const craftedBy = { name: "Vitally", url: "https://www.vitally.app/" };
 
 // Trademark notice
 const trademarkNotice =
@@ -67,8 +67,8 @@ const trademarkNotice =
     >
       {/* Copyright and Crafted By Section */}
       <p class="text-sm text-slate-400/50">
-        &copy; 2018-{copyrightYear}
-        {companyName} Crafted by
+        &copy; 2025
+        Crafted by
         <a
           href={craftedBy.url}
           target="_blank"
@@ -79,10 +79,6 @@ const trademarkNotice =
         </a>
       </p>
 
-      {/* Trademark Notice */}
-      <p class="text-sm text-slate-400/50">
-        <Fragment set:html={trademarkNotice} />
-      </p>
     </div>
   </div>
 </footer>
