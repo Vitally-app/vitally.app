@@ -24,13 +24,13 @@ const defaultSchema: WithContext<Thing> = {
   inLanguage: "en-US",
   "@id": Astro.url.href,
   url: Astro.url.href,
-  name: "DataNova",
+  name: "Vitally",
   description:
     "Unlock powerful data insights with DataNova's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models.",
   isPartOf: {
     "@type": "WebSite",
     url: `${Astro.site}`,
-    name: "DataNova",
+    name: "Vitally",
     description:
       "DataNova Analytics Inc. provides advanced analytics for Excel to help businesses unlock actionable insights quickly with no coding required.",
   },
@@ -42,12 +42,12 @@ const defaultSchema: WithContext<Thing> = {
     {/* SEO Meta Tags */}
     <SEO
       charset="utf-8"
-      title={seo?.title ?? "DataNova"}
+      title={seo?.title ?? "Vitally"}
       description={seo?.description ??
         "Unlock powerful data insights with DataNova's advanced analytics suite for Excel. Visualize, analyze, and make data-driven decisions in minutes with seamless Excel integration, AI-powered analysis, and predictive forecasting models."}
       openGraph={{
         basic: {
-          title: "DataNova - Unlock Insights from Your Excel Data",
+          title: "Vitally - Unlock Insights from Your Excel Data",
           type: "website",
           image: socialImage,
         },
@@ -58,11 +58,11 @@ const defaultSchema: WithContext<Thing> = {
       }}
       twitter={{
         card: "summary_large_image",
-        title: "DataNova - Unlock Insights from Your Excel Data",
+        title: "Vitally - Unlock Insights from Your Excel Data",
         description:
           "Transform your Excel workspace with DataNova's powerful analytics suite. Visualize and analyze data quickly with no coding required.",
         image: socialImage,
-        imageAlt: "DataNova Logo.",
+        imageAlt: "Vitally Logo.",
       }}
       extend={{
         link: [
